@@ -18,7 +18,7 @@ Before running the application we need to create the needed DB tables:
 
 Now you can run the development web server:
 
-    ./manage.py runserver
+    ./manage.py runserver 80
 
-To access the applications go to the URL <http://localhost:8000/>
+To access the applications go to the URL <http://localhost/>
 
