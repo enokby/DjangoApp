@@ -1,0 +1,12 @@
+<h1>Emails</h1>
+<table>
+	<th>Name</th><th>Email</th>
+    {% for email in object_list %}
+    <tr>
+	
+	<td>{{ email.name }}</td><td>{{ email.email }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+<a href="{% url 'email_add' %}">New</a>
